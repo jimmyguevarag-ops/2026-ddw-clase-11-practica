@@ -1,0 +1,40 @@
+/* Estilos Generales / Globales */
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Helper */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Header */
+#header{
+    margin: 40px 0;
+}
+
+#nav{
+    float: right
+}
+
+#nav a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    text-decoration: none;
+    margin-left: 73px;
+}
+
+#nav a + a{
+    margin-left: 73px;
+}
+
+#logo{
+    float: left;
+}
