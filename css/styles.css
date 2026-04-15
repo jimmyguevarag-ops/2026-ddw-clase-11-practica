@@ -60,6 +60,13 @@ p.small {
     display: inline-block;
 }
 
+.bg-light {
+    background-color: #f2f5ff;
+}
+
+.space-wrapper {
+    margin: 60px 0;
+}
 
 /* Header */
 #header {
@@ -98,7 +105,6 @@ p.small {
 /* Features */
 .feature-bg {
     padding: 40px 0;
-    background-color: #f2f5ff;
 }
 
 .feature-item {
@@ -124,10 +130,6 @@ p.small {
 }
 
 /* Inspiration */
-.inspiration-wrapper {
-    margin: 60px 0;
-}
-
 #inspiration-header {
     text-align: center;
     margin-bottom: 88px;
@@ -143,7 +145,6 @@ p.small {
 
 /* More Information */
 .more-info {
-    background-color: #F2F5FF;
     padding: 60px 0
 }
 
@@ -161,4 +162,30 @@ p.small {
 .more-info-image {
     width: 600px;
     float: left;
+}
+
+
+/* Range */
+
+
+#range-header {
+    text-align: center;
+    margin-bottom: 88px;
+}
+
+.range-gallery {
+    text-align: center;
+}
+
+.range-gallery img+img {
+    margin-left: 20px;
+}
+
+.range-gallery>div {
+    width: 33.33%;
+    float: left;
+}
+
+.range-gallery img {
+    margin-bottom: 30px;
 }
