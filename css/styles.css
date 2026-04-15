@@ -3,6 +3,7 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+
 h2 {
     font-size: 32px;
     color: #333333;
@@ -24,6 +25,7 @@ h3 {
 p {
     font-size: 20px;
     color: #666666;
+    line-height: 39px;
     /* reset */
     margin: 0;
 }
@@ -46,6 +48,18 @@ p.small {
     display: table;
     clear: both;
 }
+
+.btn {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    background-color: #054C73;
+    padding: 24px 57px;
+    display: inline-block;
+}
+
 
 /* Header */
 #header {
@@ -125,4 +139,26 @@ p.small {
 
 .inspiration-gallery img+img {
     margin-left: 41px;
+}
+
+/* More Information */
+.more-info {
+    background-color: #F2F5FF;
+    padding: 60px 0
+}
+
+.more-info-content {
+    width: 540px;
+    float: left;
+    margin-top: 265px;
+    margin-right: 60px;
+}
+
+.more-info-content p {
+    margin-bottom: 35px;
+}
+
+.more-info-image {
+    width: 600px;
+    float: left;
 }
