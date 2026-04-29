@@ -42,6 +42,11 @@ p.small {
     margin: 0 auto;
 }
 
+.container-small {
+    width: 500px;
+    margin: 0 auto;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -55,8 +60,12 @@ p.small {
     color: white;
     text-decoration: none;
     background-color: #054C73;
-    padding: 24px 57px;
+    padding: 24px 10px;
     display: inline-block;
+}
+
+.btn.big {
+    padding: 24px 57px;
 }
 
 .bg-light {
@@ -189,4 +198,31 @@ p.small {
 
 .section-content-gallery img {
     margin-bottom: 30px;
+}
+
+
+/* Newsletter */
+.newsletter-wrapper {
+    background-color: #F2F5FF;
+    text-align: center;
+}
+
+/* Form */
+form {
+    margin-top: 50px;
+}
+
+input[type="email"] {
+    height: 63px;
+    border: 1px solid #054C73;
+    float: left;
+    width: 323px;
+    padding-left: 10px;
+}
+
+input[type="submit"] {
+    width: 154px;
+    float: left;
+    border: none;
+    text-transform: capitalize;
 }

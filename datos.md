@@ -8,6 +8,7 @@ _ FFFFFF - white.
 _ 111111 - negro.
 _ 011C42 - azul oscuro.
 _ D7D6D6 - gris borde.
+\_ F2F5FF - bg newsletter
 
 Font:
 monterrat.
