@@ -226,3 +226,33 @@ input[type="submit"] {
     border: none;
     text-transform: capitalize;
 }
+
+/* Footer */
+.footer-bg {
+    background-color: #03344F;
+    padding: 40px 0;
+}
+
+#footer p,
+#footer h3 {
+    color: white;
+}
+
+#footer h3:first-child {
+    margin-bottom: 30px;
+}
+
+.footer-left {
+    width: 400px;
+    float: left;
+}
+
+.footer-right {
+    width: 780px;
+    float: left;
+    margin-left: 20px;
+}
+
+.footer-right img+img {
+    margin-left: 20px;
+}
